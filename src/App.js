@@ -14,6 +14,7 @@ import Register from './Component/Register/Register';
 import Login from './Component/Login/Login';
 import PrivateRoute from './Component/PrivateRoute/PrivateRoute';
 import Shipping from './Component/Shipping/Shipping';
+import PlaceOrder from './Component/PlaceOrder/PlaceOrder';
 
 
 
@@ -39,6 +40,9 @@ function App() {
             </Route>
             <PrivateRoute path="/shipping">
               <Shipping />
+            </PrivateRoute>
+            <PrivateRoute path="/placeorder">
+              <PlaceOrder />
             </PrivateRoute>
           </Switch>
         </Router>

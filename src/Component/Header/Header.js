@@ -9,6 +9,7 @@ const Header = () => {
         <div className="header">
             <Link to="/home">Home</Link>
             <Link to="/shipping">Shipping</Link>
+            <Link to="/placeorder">Placeorder</Link>
             <Link to="/register">Register</Link>
             {user.email || <Link to="/login">login</Link>}
             <h1>{user.displayName}</h1>
